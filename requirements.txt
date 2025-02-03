@@ -1,0 +1,7 @@
+datasets
+matplotlib
+seaborn
+scikit-learn
+pandas
+litellm
+tqdm
