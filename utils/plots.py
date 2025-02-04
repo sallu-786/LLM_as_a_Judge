@@ -39,9 +39,6 @@ def dist_plot(df_evaluated):
     plt.show()
 
 
-
-
-
 def conf_mat(df_evaluated):
     plt.figure(figsize=(6, 5))
     cm = confusion_matrix(df_evaluated['score'], df_evaluated['judge_score'])
